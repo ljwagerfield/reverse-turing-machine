@@ -1,0 +1,4 @@
+-Xms1G
+-Xmx4G
+-Xss2M
+-XX:MaxMetaspaceSize=1024M

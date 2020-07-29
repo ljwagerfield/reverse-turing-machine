@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+**/*.DS_Store
+
+# IntelliJ
+.idea
+*.iml
+
+# SBT
+project/project
+project/.sbtserver*
+.hydra
+
+# Java
+target
+*.class
+*.log
+*.jar
+
+# Custom temporary folders
+logs
+tmp
