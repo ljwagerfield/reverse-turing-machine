@@ -2,9 +2,9 @@
 
 Algorithm for running Turing Machines in reverse (to generate inputs rather than interpret them).
 
-Traditionally, Turing Machines are run forwards: you start at an initial state (e.g. `start`) with a full tape. The tape is then consumed until a final state is reached (e.g. `valid`/`invalid`), at which point execution stops, and you have your result.
+Traditionally, Turing Machines are run forwards: you start at an initial state (e.g. `start`) with a full tape. The tape is then consumed until a final state is reached (e.g. `valid`/`invalid`), at which point you have your result.
 
-Running in reverse means the exact opposite: you start at a final state (e.g. `valid`) with an empty tape. The tape is then populated until an initial state is reached (e.g. `start`), at which point execution stops, and you have your input.
+Running in reverse means the opposite: you start at a final state (e.g. `valid`) with an empty tape. The tape is then populated until an initial state is reached (e.g. `start`), at which point execution stops, and you have your input.
 
 **Why do this?** To automatically derive input generators from predicates (has applications in testing frameworks).
 
