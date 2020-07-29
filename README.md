@@ -6,6 +6,8 @@ Traditionally, Turing Machines are run forwards: you start at an initial state (
 
 Running in reverse means the exact opposite: you start at a final state (e.g. `valid`) with an empty tape. The tape is then populated until an initial state is reached (e.g. `start`), at which point execution stops, and you have your input.
 
+**Why do this?** To automatically derive input generators from predicates (has applications in testing frameworks).
+
 ## Exploring the repository
 
 This repository is written in Scala (using Cats).
